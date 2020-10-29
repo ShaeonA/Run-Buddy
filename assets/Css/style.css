@@ -139,7 +139,8 @@ text-align: center;
 .secondary-border { border-color: #39a6b2;
 }
 
-.steps{ display: inline-block;
+.steps{ margin: 0 auto;
+display: inline-block;
 background-color: #fce138;}
 
 .steps div {margin-bottom: 80px;}
@@ -158,3 +159,31 @@ font-size: 23px;
 }
 
 .steps span {font-size: 38px;}
+
+.trainers {text-align:center;
+color: #024e76;
+font-size: 25px;
+border-color: #fce138;
+}
+
+.trainer { width: 900px;
+margin: 0 auto 30px auto;
+background: #024e76;
+color: #fce138;
+overflow: auto;
+font-size: 20px;
+}
+
+.trainer img {
+width: 35%;
+float: left;
+overflow: auto;
+}
+  
+.trainer-bio {
+padding: 35px;
+float: left;
+width: 65%;
+overflow: auto;
+}
+
