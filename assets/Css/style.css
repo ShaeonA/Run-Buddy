@@ -110,9 +110,7 @@ font-size: 20px;
 margin: 0 auto;
 text-align: center;
 }
-.steps { text-align: center;
-display: inline-block;    
-} 
+
 .what-we-do{font-size: 55px;
 color: #024e76;
 margin-bottom: 35px;
@@ -126,22 +124,21 @@ background-color: #fce138;
 color: #024e76;
 margin-bottom: 35px;
 padding: 0 100px 20px 100px;
-display: inline-block;
 border-bottom: 3px solid;
 background-color: #fce138;
 text-align: center;
 }
 
-.primary-border {border-color: #39a6b2
+.primary-border {border-color: #fce138
 }
 
 
 .secondary-border { border-color: #39a6b2;
 }
 
-.steps{ margin: 0 auto;
-display: inline-block;
-background-color: #fce138;}
+.steps { text-align: center;
+    background-color: #fce138;
+}
 
 .steps div {margin-bottom: 80px;}
 
@@ -186,4 +183,46 @@ float: left;
 width: 65%;
 overflow: auto;
 }
+.reach-out {
+font-size: 55px;
+display: inline-block;
+padding: 0 100px 20px 100px;
+border-bottom: 3px solid;
+margin-bottom: 35px;
+color: #024e76;
+}
 
+.contact { text-align: center;
+background-color: #024e76;
+}
+.contact h2 { color: #fce138;
+}
+
+.contact iframe { width: 400px;
+height: 400px;
+}
+
+.contact-info {
+    width: 410px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    margin: 30px 0 0 60px;
+    color: white;
+  }
+
+  .contact-info h3 {
+    color: #fce138;
+    font-size: 32px;
+  }
+  
+  .contact-info p, .contact-info address {
+    margin: 20px 0;
+    line-height: 1.5;
+    font-size: 20px;
+    font-style: normal;
+  }
+  
+  .contact-info a {
+    color: #fce138;
+  }
