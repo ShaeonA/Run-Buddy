@@ -34,12 +34,7 @@ header h1 {
     color: #fce138;
     margin: 0; 
     }
-    header h3 { font-weight: bold;
-    font-size: 18px;
-    color: #fce138;
-    margin: 0;
-    display: inline;;
-    }
+
 footer { background: #fce138;
     width: 100%;
     padding: 40px 35px;
