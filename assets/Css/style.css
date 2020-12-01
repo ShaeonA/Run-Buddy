@@ -167,7 +167,7 @@ flex: 1 30%;
 }
 
 .step-text p { color: #39a6b2;
-font-size: 23px;
+font-size: 18px;
 }
 
 .step-text h4 {
@@ -190,12 +190,14 @@ align-items: center;
 }
 
 .step-img {
-    flex: 1 12%;
-    margin-right: 20px;
+  flex: 1 12%;
+  margin-right: 20px;
 }
-
  .step-text {
     flex: 12;
+}
+.step-img img {
+  max-width: 100%;
 }
 
 .trainer { width: 900px;
@@ -264,3 +266,8 @@ height: 400px;
   .flex-row {
     display: flex;
   }
+.section-title{ padding-bottom: 20px;
+  text-align: center;
+  margin: 0 auto 35px auto;
+  width: 50%;
+}
